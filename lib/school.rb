@@ -26,6 +26,7 @@ def sort
   #iterate over the array
   # hash_return = {}
   @roster.each do |key,value|
+    binding.pry
   end 
   #return the sorted hash rather than unsorted hash 
 end 
