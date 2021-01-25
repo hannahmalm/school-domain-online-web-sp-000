@@ -29,7 +29,7 @@ def sort
     #inside the roster hash.each, when doing value.sort - its temporary (returns temporary value but wont modify original)
     #use value.sort! to modify the original code 
     value.sort!
-    binding.pry
+    
   end 
   #return the sorted hash rather than unsorted hash 
 end 
