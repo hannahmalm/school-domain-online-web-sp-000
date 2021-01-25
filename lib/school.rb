@@ -28,9 +28,6 @@ def sort
   @roster.each do |key,value|
   end 
   #return the sorted hash rather than unsorted hash 
-  #hash.sort 
-  binding.pry
-
 end 
  end 
   
