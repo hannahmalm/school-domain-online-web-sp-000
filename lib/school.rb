@@ -28,7 +28,7 @@ def sort
   @roster.each do |key,value|
     #inside the roster hash.each, when doing value.sort - its temporary (returns temporary value but wont modify original)
     #use value.sort! to modify the original code 
-    value.sort!
+    value.sort
   end 
   #return the sorted hash rather than unsorted hash 
   return @roster 
