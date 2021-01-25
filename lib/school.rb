@@ -32,6 +32,7 @@ def sort
     
   end 
   #return the sorted hash rather than unsorted hash 
+  return @roster 
 end 
  end 
   
