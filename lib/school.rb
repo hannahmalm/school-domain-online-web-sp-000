@@ -29,6 +29,7 @@ def sort
   end 
   #return the sorted hash rather than unsorted hash 
   #hash.sort 
+  binding.pry
   roster.values.sort 
 end 
  end 
