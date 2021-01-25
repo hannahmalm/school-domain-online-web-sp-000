@@ -26,6 +26,8 @@ def sort
   #iterate over the array
   # hash_return = {}
   @roster.each do |key,value|
+    #inside the roster hash.each, when doing value.sort - its temporary (returns temporary value but wont modify original)
+    #use value.sort!
     binding.pry
   end 
   #return the sorted hash rather than unsorted hash 
